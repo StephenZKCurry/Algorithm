@@ -1,3 +1,5 @@
+package comic;
+
 /**
  * @description: 链表的增删改查
  * @author: zhukai

@@ -23,7 +23,7 @@ public class TwoSum {
         int[] nums = new int[]{2, 5, 5, 11};
         TwoSum twoSum = new TwoSum();
         int[] result = twoSum.twoSum2(nums, 10);
-        System.out.println(twoSum.output(result));
+        twoSum.output(result);
     }
 
     /**
@@ -140,9 +140,8 @@ public class TwoSum {
      * 输出数组
      *
      * @param array
-     * @return
      */
-    public String output(int[] array) {
+    public void output(int[] array) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < array.length; i++) {
@@ -154,6 +153,6 @@ public class TwoSum {
             }
         }
         sb.append("]");
-        return sb.toString();
+        System.out.println(sb.toString());
     }
 }

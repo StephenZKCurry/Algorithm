@@ -11,3 +11,10 @@
 
 ## 小灰的漫画算法
 
+* [数组的增删改查](https://github.com/StephenZKCurry/Algorithm/blob/master/src/comic/MyArray.java)
+* [单向链表的增删改查](https://github.com/StephenZKCurry/Algorithm/blob/master/src/comic/MyLinkList.java)
+
+## 其他
+
+* [两个线程交替打印奇偶数](https://github.com/StephenZKCurry/Algorithm/blob/master/src/thread/PrintOddAndEven.java)
+* [生产者消费者模型的三种实现方式](https://github.com/StephenZKCurry/Algorithm/blob/master/src/thread/ProducerConsumer.java)
